@@ -1,0 +1,55 @@
+h2{
+	color: #6CA54F;
+	text-align: right;
+	font-weight :bold;	
+}
+fieldset{
+	background-color : #c818ea;
+	border: double;
+}
+legend{
+	font-weight :bold;
+	font-size: 25px;
+	color: #5c2467;
+	text-decoration: underline
+}
+#one{
+	border-style: solid;
+	 border-width: 2px;
+}
+#two{
+	border-style: double;
+	 border-width: 3px;
+}
+#three{
+	border-style: dotted;
+    border-width: thick;
+}
+figure{
+	color:green;
+		border-style: solid;
+	 border-width: 2px;
+	 text-align: center;
+}
+figcaption{
+	 text-align: center;
+	 color:blue;
+	 font-size: 19px;
+}
+.pfooter{
+	  
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+	  margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left:30px;
+	position:relative;
+	right:30px;
+	background-color: light blue;
+	 border: 1px solid black;
+}
+a{
+color:yellow;}

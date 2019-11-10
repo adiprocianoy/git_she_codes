@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is Even</title>
+</head>
+<body>
+	<form action="is_.php">
+	<p>Enter a whole number</p>
+	<p><input type="text" name="number"></p>
+	<p><input type="submit" value="run"></p>
+</form>
+</body>
+</html>

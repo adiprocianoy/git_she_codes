@@ -1,0 +1,236 @@
+* {
+		font-family: 'Acme', sans-serif;
+		box-sizing: border-box;
+		padding: 0px;
+	}
+		
+		#background{
+			height: 1900px;
+			background-color: #C0C0C0;
+			max-width: 85%;
+			margin: 0px auto;
+			}
+		#insidebackground{
+			height: 1600px;
+			background-color: #F0FFFF;
+			max-width: 85%;
+			margin: 0px auto;
+		}
+		img{
+			position: relative;
+			top: 20%;
+			left: 25%;
+			width: 45%;
+		}
+		nav{
+			float: left;
+			background-color: #E0FFFF;
+			font-size: 24px;
+			width: 100%;
+			height: 67px;
+
+		}
+		ul{
+			list-style-type: none;
+			float: left;
+			width: 75%;
+		}
+		li{
+			float: left;
+			width: 135px;
+			margin-top: 2px;
+			margin-left: 5px;
+			font-weight: bold;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+			
+		}
+		.LogIn{
+			position: relative;
+			top: 0%;
+			left: 85%;
+			width: 45%;
+			color: #696969;
+			font-size: 24px;
+			width: 100%;
+			text-decoration: underline;
+		}
+		.notActive{
+			color: #696969;
+		}
+		a:hover{
+			color: black;
+		}
+		#searchForm{
+			float: left;
+			width: 25%;
+			padding-left: 2%;
+		}
+		#searchText{
+			height: 30px;
+			width: 90%;
+			border-radius: 5px;
+			font-size: 20px;
+			margin-top: 18px;
+			padding-left: 20px;
+	
+		}
+		section{
+			float: left;
+			width: 100%;
+			margin-top: 10px;
+			height: 55px;
+			padding-top: 5px;
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+			font-size: 20px;
+		}
+		.sentence{
+			background-color: #E5D4DB;
+		}
+		#design_steps{
+			float: left;
+			width: 100%;
+			background-color: white;
+			border-style: solid;
+		}
+		.stepsImage{
+			position: relative;
+			top: 20%;
+			left: 2%;
+			height: 200px;
+			width: 90%;
+			
+		}
+		.products{
+			position: relative;
+			top: 2%;
+			left: 0%;
+			height: 200px;
+			width: 25%;
+			float: left;
+			padding-left: 2%;
+			border-radius: 30px;
+			border-style: solid;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		.all_products{
+			background-color: black;
+			height: 220px;
+		}
+		.Our_service{
+			position: relative;
+			top: 2%;
+			left: 0%;
+			height: 170px;
+			width: 90%;
+			padding-left: 2%;
+		}
+		.web_introductions{
+			margin-top: 150px;
+			text-align: center;
+			font-family: 'Poiret One', cursive;
+		}
+		.desc{
+			font-size: 23px;
+			margin: 50px;
+		}
+		.intro h1{
+			font-size: 25px;
+		}
+		footer {
+			position: relative;
+		}
+		#pContact{
+        font-size: 15px;        
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 8%;
+        font-family: 'Courgette', cursive;
+        border: solid black;
+        background-image: url("snow.jpg");
+        filter: brightness(110%);
+        text-align: center
+        }
+		video{
+			position: absolute;
+			top: 300px;
+			left: 100px;
+			width: 80%;
+			height: auto;
+		}
+		.clear{
+			clear: both;
+		}
+		@media screen and (max-width: 1000px) {
+			ul{
+				width: 100%;}
+			li{
+				width: 100%;}
+			nav{
+				height: 300px;
+			}
+			form{
+				width: 100%;
+			}
+		}
+		@media screen and (max-width: 850px) {
+			#details{
+				display: none;
+			}
+			.LogIn{
+				left: 60%;
+			}
+			.desc{
+				font-size: 20px;
+			}
+			video{
+				left: 70px;
+			}
+		}
+		@media screen and (max-width: 680px) {
+			#background{
+				height: 1500px;
+			}
+			.LogIn{
+				left: 60%;
+			}
+			.desc{
+				font-size: 15px;
+			}
+			.stepsImage{
+				display: none;
+			}
+			.Our_service{
+				height: 100px;
+			}
+			.products{
+				height: 130px;;
+			}
+			.all_products{
+				height: 140px;
+			}
+			video{
+				left: 50px;
+			}
+			#pContact{
+				font-size: 10px;
+				width: 12%;				
+			}
+			}
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}

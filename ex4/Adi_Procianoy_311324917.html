@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> EX4_WEB </title>
+	<h2 id="ToBeBloue">Set the color to blue</h2>
+	<script>
+	function changeH2(){
+		document.getElementById("ToBeBloue").innerHTML="<b>Now I'm blue</b>";
+		document.getElementById("ToBeBloue").style.color="blue";
+	}
+	function finMaxMinAVG(){
+		var arraySize =window.prompt("Please enter the size of the array: ","Array size");
+		arr = new Array(arraySize)
+		for(var i=0;i<arraySize;i++){
+			arr[i]=parseInt(window.prompt("Please add the values:" ,));
+		}
+		var SumOdd=0;
+		var avgOdd=0;
+		/**enter only positiv values**/
+		var maxNum=0;
+		var minNum=arr[0];
+		var numOfOdds=0;
+		for (var i=0;i<arraySize;i++){
+			if ((arr[i])%2 !=0)
+			{
+				SumOdd = SumOdd+arr[i];
+				numOfOdds++;
+			}
+			if (((arr[i])%2) ==0){
+				if (arr[i]>maxNum)
+				{
+					maxNum=arr[i];
+				}
+			}
+		}
+		for (var i=0;i<arraySize;i++){
+			if (((arr[i])%2) ==0){
+				if (arr[i]<minNum)
+				{
+					minNum=arr[i];
+				}
+			}
+		}
+		avgOdd = (SumOdd/numOfOdds)
+		alert("The AVG (odd numbers): " +avgOdd);
+		alert ("The min num (even numbers) is: " + minNum);
+		alert ("The max num (even numbers) is: " + maxNum);
+		}
+		function countChars(){
+			var word =window.prompt("Please enter a word: ","word");
+			var tav =window.prompt("Please enter a char: ","char");
+			alert(word.split(tav).length-1);
+	}
+	function mulTable(){
+		var rowLength =window.prompt("Please enter the rows length: ","rows length");
+		var colLength =window.prompt("Please enter the col length: ","col length");
+			var color_td;
+			document.write("<table border='1px'>");
+			for(var i = 1; i <= rowLength; i++) {
+				document.write("<tr style='height:30px;border:2px solid blue'>");
+				for(var j = 1; j <= colLength; j++) {
+					document.write("<td style='width:30px;border:2px solid blue'>" + i*j + "</td>");
+					document.write("<style>table{background-color:yellow;text-align:center;border:2px solid blue} tr{color:blue;}</style>");
+				}
+				document.write("</tr>");
+			}
+			document.write("</table>");
+	}
+	</script>
+</head>	
+		
+<body>
+<center>
+<button id="clickB" onclick="changeH2()"> Task-1 </button>
+<button id="clickB" onclick="finMaxMinAVG()"> Task- 2</button>
+<button id="clickB" onclick="countChars()"> Task- 3 </button>
+<button id="clickB" onclick="mulTable()"> Task- 4 </button>
+</center>
+
+</body>
+</html>
